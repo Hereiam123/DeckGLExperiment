@@ -1,7 +1,5 @@
 import { GoogleMapsOverlay } from "@deck.gl/google-maps";
-import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import { ScatterplotLayer } from "@deck.gl/layers";
-import { HeatmapLayer } from "@deck.gl/aggregation-layers";
 
 const scatterplot = () =>
   new ScatterplotLayer({
