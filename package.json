@@ -1,0 +1,32 @@
+{
+  "name": "deckglexperiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@deck.gl/aggregation-layers": "^7.3.6",
+    "@deck.gl/core": "^7.3.6",
+    "@deck.gl/google-maps": "^7.3.6",
+    "@deck.gl/layers": "^7.3.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "convert-csv-to-json": "0.0.15"
+  },
+  "scripts": {
+    "build": "webpack --output-path ./public",
+    "start": "webpack-dev-server --content-base ./public --output-path ./public --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hereiam123/DeckGLExperiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hereiam123/DeckGLExperiment/issues"
+  },
+  "homepage": "https://github.com/Hereiam123/DeckGLExperiment#readme"
+}
