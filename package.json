@@ -9,7 +9,7 @@
     "@deck.gl/google-maps": "^7.3.6",
     "@deck.gl/layers": "^7.3.6",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.9.0"
   },
   "devDependencies": {
